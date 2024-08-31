@@ -7,7 +7,7 @@ on:
       device:
         description: '选择设备型号编译'
         required: false
-        default: 'd2'
+        default: 'x86'
         type: choice
         options:
               - d2
