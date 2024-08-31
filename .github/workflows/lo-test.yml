@@ -8,6 +8,18 @@ on:
         description: 'select device to build'
         default: 'r2s'
         required: false
+        type: choice
+            options:
+              - d2
+              - r1p
+              - r1s
+              - r2c
+              - r4s
+              - r5c
+              - r5s
+              - r6c
+              - r6s
+              - x86
       branch:
         description: 'seleclt openwrt branch'
         default: 'master'
