@@ -5,15 +5,16 @@ on:
   workflow_dispatch:
     inputs:
       device:
-        description: 'select device to build'
-        default: 'r2s'
+        description: '选择设备型号编译'
         required: false
+        default: 'r2s'
         type: choice
             options:
               - d2
               - r1p
               - r1s
               - r2c
+              - r2s
               - r4s
               - r5c
               - r5s
