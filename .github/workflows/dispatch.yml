@@ -6,16 +6,16 @@ on:
         type: choice
         description: 'debug?'
         options:
-        - true
-        - false
+        - 'true'
+        - 'false'
         default: 'false'
         required: true
       package_clean:
         type: choice
         description: 'check to make clean package'
         options:
-        - true
-        - false
+        - 'true'
+        - 'false'
         default: 'true'
         required: true
 
