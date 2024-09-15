@@ -1,5 +1,5 @@
 
-# 这个克隆仓库是应用上游仓库预先编译的成品ipk，调用用户设置参数后，根据用户给设置的参数再打包成用户需要的固件，看用户给的参数多少，形成固件的时长不等。
+# 这个克隆仓库是应用上游仓库预先编译的成品Image builder，再通过调用用户设置的参数，根据用户给设置的参数再打包成用户需要的固件，看用户给的参数多少，形成固件的时长不等。由于是预编译的调用，openwrt基础框架定型（源码有两种，lede的和immortalwrt的），具体是哪种，没有可选择余地，插件多少可自由选择后添加，添加说明见本文后半部分。
 具体插件名称对照表，可点击[luci_app_manual.md](https://github.com/YingziWo/nanopi-openwrt/blob/master/luci_app_manual.md)文件中查看。
 
 # Nanopi R1S R2S R2C R4S X86 Openwrt 固件
