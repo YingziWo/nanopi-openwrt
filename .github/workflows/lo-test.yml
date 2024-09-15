@@ -26,8 +26,8 @@ on:
         default: 'master'
         required: false
 
-  schedule:
-    - cron: 0 0 1,15 * *
+  #schedule:
+  #  - cron: 0 0 1,15 * *
 
 jobs:
 
